@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    user-select: none; /* 드래그 시 텍스트 선택 방지 */
+}
+
+/* 드래그 가능한 이모지 컨테이너 스타일 */
+.draggable-emoji {
+    font-size: 50px; /* 이모지 크기 */
+    cursor: grab; /* 드래그할 수 있음을 나타내는 커서 */
+    position: absolute; /* 드래그하여 위치를 바꿀 수 있도록 설정 */
+    
+    /* 초기 위치 설정 (필요에 따라 조정) */
+    top: 50px; 
+    left: 50px;
+    
+    /* 이모지 간의 초기 위치 구분 */
+    z-index: 10;
+}
+
+/* 상의 이모지 초기 위치 */
+#one {
+    top: 100px;
+    left: 100px;
+}
+
+#two {
+    top: 100px;
+    left: 130px;
+}
+
+/* 하의 이모지 초기 위치 */
+#three{
+    top: 200px;
+    left: 100px;
+}
+
+#four {
+    top: 200px;
+    left: 130px;
+}
+
+#five {
+    top: 200px;
+    left: 160px;
+}
+
+#six {
+    top: 100px;
+    left: 160px;
+}
+
+#seven {
+    top: 200px;
+    left: 190px;
+}
+/* 드래그 중일 때 커서 모양 변경 */
+.dragging {
+    cursor: grabbing;
+    z-index: 20; /* 드래그하는 요소를 다른 요소보다 위에 보이도록 설정 */
+}
+
+#container{
+width: 700px;
+    height: 700px; 
+    background-color: rgb(12, 5, 98);
+    position:absolute;
+    top:300px;
+    left:300px;
+
+}
