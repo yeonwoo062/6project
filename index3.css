@@ -14,52 +14,52 @@ body {
     margin: 10px;            
     display: inline-block; 
     font-size: 18px;
-    color: #333;       /* 1. 요소를 자유롭게 이동시킬 수 있도록 설정 */ /* Webkit 브라우저 호환성 */
-    cursor: grab;             /* 2. 드래그 가능한 요소임을 시각적으로 표시 */
+    color: #333;      
+    cursor: grab;             
     touch-action: none;
     position: absolute;
 }
 
-/* ---------------------------------------------------- */
 
-/* 2. 고유 색상 스타일 (배경색만 다름) */
+
+
 .color-red {
-    background-color: #ffcccc; /* 연한 빨강 */
+    background-color: #ffcccc; 
     top: 50px; left: 50px;
 }
 
 .color-blue {
-    background-color: #cceeff; /* 연한 파랑 */
+    background-color: #cceeff;
     top: 50px; left: 70px;
 }
 
 .color-green {
-    background-color: #ccffcc; /* 연한 초록 */
+    background-color: #ccffcc; 
     top: 50px; left: 90px;
 }
 
 .color-yellow {
-    background-color: #ffffcc; /* 연한 노랑 */
+    background-color: #ffffcc; 
     top: 50px; left: 110px;
 }
 
 .color-purple {
-    background-color: #e6ccff; /* 연한 보라 */
+    background-color: #e6ccff;
     top: 50px; left: 130px;
 }
 
 .color-orange {
-    background-color: #ffebcc; /* 연한 주황 */
+    background-color: #ffebcc; 
     top: 50px; left: 150px;
 }
 
 .color-pink {
-    background-color: #ffcccc; /* 연한 분홍 */
+    background-color: #ffcccc; 
     top: 50px; left: 170px;
 }
 
 .color-teal {
-    background-color: #cceeee; /* 연한 청록 */
+    background-color: #cceeee; 
     top: 50px; left: 190px;
 }
 
